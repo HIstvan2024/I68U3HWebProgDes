@@ -1,0 +1,7 @@
+1. Téma kiválasztása
+2. HTML kiterjesztés könyvtárhoz adása
+3. Beállítások konfigurálása
+	3.1. AutoSave -> onWindowChange
+4. Bővítmények letöltése
+	4.1. Prettier könyvtárhoz adása
+	4.2. Liveserver könyvtárhoz adása
