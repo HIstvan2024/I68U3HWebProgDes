@@ -1,0 +1,17 @@
+body
+	{
+    background-color: lightblue;
+    font-family: Arial;
+	}
+
+h1 
+	{
+    color: darkblue;
+    text-align: center;
+	}
+
+p 
+	{
+	color: white;
+    background-color: grey;
+	}
