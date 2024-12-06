@@ -1,0 +1,204 @@
+.grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 40rem;
+}
+
+footer {
+    border-top: 4px solid gray;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    width: 37.5rem;
+    text-align: right;
+}
+button#veryslow {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/veryslow.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+
+button#start {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/start.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#stop {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/stop.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#mute {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/mute.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#quite {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/quite.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#loud {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/loud.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#slow {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/slow.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#normal {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/start.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#fast {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/veryfast.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#veryfast {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/fast.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#small {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/small.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#normalsize {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/normalsize.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#big {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/big.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#hasitended {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/hasitended.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#length {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/length.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#currently {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/currently.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#startstop {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/startstop.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}

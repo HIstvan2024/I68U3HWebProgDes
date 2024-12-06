@@ -1,0 +1,27 @@
+.tabla {
+	width: 450px;
+	height: 450px;
+	border-collapse: collapse;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+}
+
+.piros {
+	background-color: red;
+}
+.bezs {
+	background-color: #ffff88;
+}
+.lila {
+	background-color: magenta;
+	text-align: center;
+}
+.scroll {
+	overflow: scroll;
+	height: 150px;
+	width: 150px;
+	text-align: justify;
+}
+.center {
+	text-align: center;
+}
