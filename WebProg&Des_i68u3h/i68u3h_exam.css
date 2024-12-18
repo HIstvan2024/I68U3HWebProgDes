@@ -1,0 +1,213 @@
+body {
+	background-color: grey;
+    background-image: url(kepek/hatter.jpeg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	font-family: Times New Roman, sans-serif;
+	color: black;
+}
+
+header {
+    width: 100%;
+}
+
+.centred {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 75px;
+    width: 100%;
+    text-align: right;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center; 
+}
+
+section, footer {
+    color: black;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: white;
+}
+
+.vs {
+  border-collapse: collapse; 
+  width: 100%; 
+  margin: 20px 0;
+  font-family: Arial, sans-serif; 
+  font-size: 13px; 
+  text-align: center; 
+}
+
+th, td {
+  border: 1px solid grey; 
+  padding: 10px; 
+  background-color: rgba(173, 216, 230, 0.4)
+}
+
+th {
+  background-color: rgba(128, 128, 128, 0.3); 
+  opacity: 1;
+  font-weight: bold;
+}
+
+p {
+	text-align: justify;
+}
+
+#faq {
+  background-color: rgba(173, 216, 230, 0.6); 
+  border-collapse: collapse; 
+  width: 100%; 
+  margin: 20px 30;
+  font-family: Arial, sans-serif; 
+  font-size: 15px;
+  td {
+       padding: 20px;
+       vertical-align: top;
+       text-align: left;
+	}
+  ol {
+	list-style-type: decimal;
+	padding-left: 50px;
+	}
+}
+
+.gombok {
+margin-top: 10px;
+button#start {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/start.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#stop {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/stop.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#startstop {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/startstop.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  1px solid grey;
+    cursor: pointer;
+    color: blue;
+	}	
+button#slow {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/slow.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#normal {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/start.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+button#fast {
+    width: 25px;
+    height: 25px;
+    background-image: url('kepek/fast.png');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: blue;
+}
+}
+
+video {
+            width: 550px;
+            height: auto;
+            border: 5px solid lightblue;
+            border-radius: 10px; 
+}
+
+.video-container {
+            float: left; 
+            width: 550px; 
+            height: 300px; 
+            text-align: center;
+        }
+
+.form-container {
+            float: left;
+            width: 256px;
+            height: 310px;
+            padding: 25px;
+            margin-left: 90px; 
+            background-color: rgba(173, 216, 230, 0.5); 
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            clear: none;
+            border-collapse: collapse; 
+}
+
+.forras {
+    clear: both;
+    position: fixed;
+    text-align: left;
+    padding-left: 10px; 
+    bottom: 25px;
+}

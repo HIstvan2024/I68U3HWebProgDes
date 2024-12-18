@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+	
+<head>
+	<meta charset="utf-8" />
+	<title>Felhőalapú szolgáltatások</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="i68u3h_exam.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <table class = "tabla" width="100%">
+                <tr>
+					<td><a href="i68u3h_home.html">Kezdőlap</a></td>
+					<td><a href="i68u3h_elony.html">Előnyök</a></td>
+					<td><a href="i68u3h_hatrany.html">Hátrányok</a></td>
+					<td><a href="i68u3h_kapcsolat.html">Kapcsolat</a></td>
+                    <td><a href="i68u3h_faq.html">GYIK</a></td>
+                </tr>
+            </table>
+        </header>
+        <br>
+        <article>
+			<h2 style = "text-align: center">Lépjen kapcsolatba munkatársainkkal, és tegye meg az első lépést a felhőtechnológia felé!</h2>
+			<p style = "margin-top: 50px; width : 100%; text-align: center;">
+				Ismerje meg személyre szabott felhőalapú megoldásainkat, és találjuk meg együtt az Ön vállalkozásának legmegfelelőbb megoldást.
+			<br>
+				<b>Forduljon hozzánk bizalommal!</b>
+			</p>
+        </article>
+        <br><br>
+        <section>
+				<div class="video-container">
+					
+					<video src="kepek/felho.mov" autoplay="true" controls></video>
+
+					<div class="gombok">
+						<div>
+							<button id="start"></button>
+							<button id="stop"></button>
+							<button id="startstop"></button>
+						</div>
+						<div>
+							<button id="slow"></button>
+							<button id="normal"></button>
+							<button id="fast"></button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-container">
+					<form action="feldolgozo1.php" target="_self" method="post" id="urlap" name="urlap">
+						<table style = "margin-top : 0px; font-size : 13px;">
+							<tr>
+								<td>
+									<label for="nev">Név:</label>
+									<input type="text" id="nev" name="nev" required 
+										   pattern="([A-ZÁÉÍÓŐÚÜŰa-záéíóöőúüű]+(\s[A-ZÁÉÍÓŐÚÜŰa-záéíóöőúüű]+)+)" 
+										   title="Adja meg a teljes nevét (minimum két szó)!" 
+										   placeholder="Teljes név" autofocus autocomplete="off">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="tel">Telefonszám:</label>
+									<input type="text" id="tel" name="tel" required 
+										   pattern="([+][0-9]{11})" 
+										   title="Magyar telefonszám (pl.: +36123456789)" 
+										   placeholder="Telefonszám">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="email">E-mail:</label>
+									<input type="text" id="email" name="email" required 
+										   placeholder="email@example.com" autocomplete="off">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="company">Cégnév:</label>
+									<input type="text" id="company" name="company" required 
+										   pattern="([A-ZÁÉÍÓŐÚÜŰa-záéíóöőúüű]+(\s[A-ZÁÉÍÓŐÚÜŰa-záéíóöőúüű]+)+)" 
+										   title="Adja meg a cége nevét (minimum két szó)!" 
+										   placeholder="Adja meg a cége nevét" autofocus autocomplete="off">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="subject">Tárgy:</label>
+									<input list="subjectek" id="subject" name="subject" 
+										   placeholder="Érdeklődés tárgya" 
+										   title="Érdeklődés, Árajánlat, Technikai segítség, Egyéb">
+									<datalist id="subjectek">
+										<option value="Érdeklődés">Érdeklődés</option>
+										<option value="Árajánlat">Árajánlat</option>
+										<option value="Technikai segítség">Technikai segítség</option>
+										<option value="Egyéb">Egyéb</option>
+									</datalist>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="confidence">Prioritás:</label>
+									<input type="range" id="confidence" name="confidence" min="0" max="100" step="0.1" 
+										   title="0 és 100 közötti érték">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="submit" value="Elküld" form="urlap">
+									<input type="submit" value="Elküld ellenőrzés nélkül" formnovalidate form="urlap">
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+		</section>
+		
+            <div class = "forras";>
+				<b>Forrás:</b>
+				<br>
+				<a style = "text-decoration: underline;" href = "https://stock.adobe.com/hu/video/a-man-is-holding-a-tablet-with-a-cloud-on-it/1069779908?prev_url=detail">
+					stock.adobe.com/...
+				</a>
+				<br>
+				<a style = "text-decoration: underline;" href = "https://stock.adobe.com/hu/images/businessman-looking-at-cloud-with-connection-and-networking-concept-3d-rendering/1037491837?prev_url=detail">
+					stock.adobe.com/...
+				</a>
+            </div>
+            
+    
+    <footer> Hevele István, I68U3H, 2024</footer>
+    <script src="i68u3h_script1.js"></script>
+</body>
+
+</html>
